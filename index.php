@@ -15,6 +15,9 @@
         <br>
 
         <div class="row" id="cardsList">
+            <section class="col-12">
+                CARGANDO...
+            </section>
         </div>
     </main>
 

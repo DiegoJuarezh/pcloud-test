@@ -29,6 +29,7 @@ function printCards( json ){
         `;
     });
 
+    $('#cardsList').empty();
     $('#cardsList').append( cardsList );
 
     $('.Card_VerDetalles').on('click', Card_VerDetalles);
