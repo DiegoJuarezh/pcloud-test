@@ -1,15 +1,8 @@
 APIData( printCards );
 
 function printCards( json ){
-    // console.log( json );
-    // console.log( json.job );
-    console.log( json.job[0] );
-
-
     let cardsList = '';
     json.job.map(function(item){
-        // console.log(item.referencenumber);
-
         date_split = item.date.split(" ");
         fecha = date_split[0].split("-");
         fecha = fecha[2]+'/'+fecha[1]+'/'+fecha[0]
@@ -81,9 +74,3 @@ function clearModal(){
     $('.Detalles_description').html(`CARGANDO...`);
     $('.Detalles_FechaPublicacion').html(`CARGANDO...`);
 }
-
-// Empresa: company
-// Título: title
-// Fecha de publicación: date
-// Lugar: city, state, country
-// Acciones: Ver detalle

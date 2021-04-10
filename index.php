@@ -15,35 +15,8 @@
         <br>
 
         <div class="row" id="cardsList">
-<!--
-            <div class="col-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Empresa: company</h5>
-                        <h6 class="card-title text-muted">Título: title</h6>
-                        <p class="card-text">Lugar: city, state, country</p>
-                        <a href="#" class="btn btn-primary">Acciones: Ver detalle</a>
-                        <p class="card-text"><small class="text-muted">Fecha de publicación: date</small></p>
-                    </div>
-                </div>
-            </div>
--->
-
-<!--
-Empresa: company
-Título: title
-Fecha de publicación: date
-Lugar: city, state, country
-Acciones: Ver detalle
--->
         </div>
     </main>
-
-    <!-- MODALS -->
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-    </button> -->
 
     <!-- Modal -->
     <div class="modal fade" id="DetallesModal" tabindex="-1" aria-labelledby="DetallesModalLabel" aria-hidden="true">
